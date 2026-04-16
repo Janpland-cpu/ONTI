@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ONTI｜Operation News Trading Indicator × Ontter</title>
+  <meta name="description" content="ONTI 16+2 版：16道基础题先把你看穿，如果你嘴硬、复杂、人格分叉，系统再补你2题。">
+  <meta name="theme-color" content="#0b1220">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <div class="page">
+    <section id="startView" class="view start-view">
+      <div class="hero-card">
+        <div class="eyebrow">ONTI · Operation News Trading Indicator</div>
+        <div class="brand-line">由 <a href="https://www.ontter.com" target="_blank" rel="noopener">Ontter 团队</a> 制作</div>
+        <h1>16 道基础题先把你看穿。<br>如果你嘴硬、复杂、人格分叉，系统再补你 2 题。</h1>
+        <p class="lead">16 道基础题｜最多补 2 题｜9 个主类型｜3 个隐藏彩蛋类型</p>
+        <div class="hero-notes">
+          <div class="note-chip">没有完全符合的选项</div>
+          <div class="note-chip">选最像你在股市发病时的反应</div>
+          <div class="note-chip">模糊人格会被系统追问</div>
+        </div>
+        <div class="hero-actions">
+          <button id="startBtn" class="btn btn-primary">开始测亏</button>
+          <a class="btn btn-secondary btn-link" href="https://www.ontter.com" target="_blank" rel="noopener">去 Ontter 看看</a>
+        </div>
+        <div class="promo-inline">
+          <strong>ONTI = Operation News Trading Indicator。</strong>
+          <span>先测你是哪种新闻驱动型交易人格，再去 Ontter 看热点、脉络和 AI 解析，别只在情绪最响的时候下单。</span>
+        </div>
+        <p class="disclaimer">本测试仅供娱乐与自我观察，不构成投资建议，也不负责回本。</p>
+      </div>
+
+      <section class="teaser-section">
+        <div class="section-head">
+          <div class="eyebrow ghost">先偷看几个高发类型</div>
+          <h2>首页预告，专治“我只是运气不好”</h2>
+          <p>这些只是首页样本。真正离谱的，还得你自己做完才知道。</p>
+        </div>
+
+        <div class="ontter-spotlight card">
+          <div class="spotlight-copy">
+            <div class="eyebrow ghost">Ontter 特别插播</div>
+            <h3>测完别急着走，去 Ontter 看市场到底在吵什么</h3>
+            <p>你的人格只是失控方式，市场信息还得看全。Ontter 可以承接这波好奇心，把热点、事件和脉络继续往下看。</p>
+          </div>
+          <a class="btn btn-primary btn-link spotlight-btn" href="https://www.ontter.com" target="_blank" rel="noopener">跳转 Ontter</a>
+        </div>
+
+        <div class="teaser-grid">
+          <article class="teaser-card">
+            <div class="teaser-emoji">🚀</div>
+            <h3>热点接盘侠</h3>
+            <p class="teaser-sub">负向</p>
+            <p class="teaser-copy">你买的不是龙头，你买的是错过的焦虑。</p>
+          </article>
+          <article class="teaser-card">
+            <div class="teaser-emoji">🎤</div>
+            <h3>马后炮分析师</h3>
+            <p class="teaser-sub">中性搞怪</p>
+            <p class="teaser-copy">盘中迷茫，盘后通透。白天是股民，晚上是首席策略官。</p>
+          </article>
+          <article class="teaser-card">
+            <div class="teaser-emoji">🧠</div>
+            <h3>独立判断者</h3>
+            <p class="teaser-sub">正向稀缺</p>
+            <p class="teaser-copy">宁可孤独，也不盲从。但偶尔也会因此错过集体顺风。</p>
+          </article>
+          <article class="teaser-card teaser-card-hot">
+            <div class="teaser-emoji">🪪</div>
+            <h3>人间清醒体验卡</h3>
+            <p class="teaser-sub">隐藏彩蛋</p>
+            <p class="teaser-copy">极少数真会在热闹里踩刹车的人，系统看见会单独给你发证。</p>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <section id="quizView" class="view hidden">
+      <div class="quiz-topbar">
+        <button id="backBtn" class="btn btn-ghost" type="button">返回</button>
+        <div class="progress-wrap">
+          <div class="progress-meta">
+            <span id="progressText">第 1 / 16 题</span>
+            <span id="progressPercent">6%</span>
+          </div>
+          <div class="progress-bar"><div id="progressInner" class="progress-inner"></div></div>
+        </div>
+      </div>
+
+      <div class="question-card">
+        <div id="questionMode" class="question-mode hidden"></div>
+        <div class="question-number" id="questionNumber">Q01</div>
+        <h2 id="questionText"></h2>
+        <div id="questionHint" class="question-hint">没有完全符合的选项。选最像你在股市发病时的反应。</div>
+        <div id="options" class="options"></div>
+      </div>
+
+      <div class="quiz-actions">
+        <button id="prevBtn" class="btn btn-secondary" type="button">上一题</button>
+        <button id="nextBtn" class="btn btn-primary" type="button" disabled>下一题</button>
+      </div>
+    </section>
+
+    <section id="resultView" class="view hidden">
+      <div class="result-header-card">
+        <div class="eyebrow">怎么样，被大A拿捏了吧？</div>
+        <div id="resultBadge" class="result-badge"></div>
+        <div id="resultTitle" class="result-title"></div>
+        <div id="resultSubtitle" class="result-subtitle"></div>
+        <div id="resultMatch" class="match-rate"></div>
+        <div class="result-header-actions">
+          <button id="copyBtn" class="btn btn-primary" type="button">复制结果文案</button>
+          <button id="restartBtn" class="btn btn-secondary" type="button">再测一次</button>
+        </div>
+        <p class="disclaimer small">本测试仅供娱乐与自我观察，不构成投资建议，不负责回本，也不替你向家里解释。</p>
+      </div>
+
+      <div class="result-grid">
+        <article class="result-main card">
+          <h3>系统判词</h3>
+          <p id="verdictText"></p>
+        </article>
+        <article class="result-traits card">
+          <h3>该人格的简单解读</h3>
+          <ul id="traitsList"></ul>
+        </article>
+        <article class="result-note card">
+          <h3>系统备注</h3>
+          <p id="noteText"></p>
+        </article>
+        <article class="result-tip card">
+          <h3>友情提示</h3>
+          <p id="tipText"></p>
+        </article>
+      </div>
+
+      <div id="archiveCard" class="archive-card hidden">
+        <h3>底层档案</h3>
+        <div class="archive-list">
+          <div><span>你的主类型</span><strong id="primaryArchive"></strong></div>
+          <div><span>你的副类型</span><strong id="secondaryArchive"></strong></div>
+          <div><span>大方向</span><strong id="directionArchive"></strong></div>
+        </div>
+      </div>
+
+      <div class="ontter-result-cta card">
+        <div class="result-cta-copy">
+          <div class="eyebrow ghost">由 Ontter 团队制作</div>
+          <h3>人格测完了，接下来去 Ontter 看市场</h3>
+          <p>你已经知道自己会在哪种情绪里冲动下单。现在去 Ontter，把热点、资讯脉络和 AI 分析补齐，别只拿着结果图继续上头。</p>
+        </div>
+        <div class="result-cta-actions">
+          <a class="btn btn-primary btn-link" href="https://www.ontter.com" target="_blank" rel="noopener">前往 Ontter</a>
+          <a class="btn btn-secondary btn-link" href="https://www.ontter.com" target="_blank" rel="noopener">查看 Ontter 介绍</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="./assets/app.js"></script>
+</body>
+</html>

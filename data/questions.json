@@ -1,0 +1,498 @@
+{
+  "directionQuestions": [
+    {
+      "id": 1,
+      "text": "一根直线拉升，你：",
+      "options": [
+        {
+          "label": "A",
+          "text": "冲",
+          "group": "hot"
+        },
+        {
+          "label": "B",
+          "text": "盯回本",
+          "group": "obsession"
+        },
+        {
+          "label": "C",
+          "text": "先不动",
+          "group": "cool"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "浮亏 8%，你：",
+      "options": [
+        {
+          "label": "A",
+          "text": "找消息",
+          "group": "hot"
+        },
+        {
+          "label": "B",
+          "text": "还没卖，不算亏",
+          "group": "obsession"
+        },
+        {
+          "label": "C",
+          "text": "先看计划",
+          "group": "cool"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "群里刷屏同一只票，你：",
+      "options": [
+        {
+          "label": "A",
+          "text": "心痒",
+          "group": "hot"
+        },
+        {
+          "label": "B",
+          "text": "我昨天就看到了",
+          "group": "obsession"
+        },
+        {
+          "label": "C",
+          "text": "人越多我越慢",
+          "group": "cool"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "你最常说的鬼话：",
+      "options": [
+        {
+          "label": "A",
+          "text": "这次不一样",
+          "group": "hot"
+        },
+        {
+          "label": "B",
+          "text": "回本我就走",
+          "group": "obsession"
+        },
+        {
+          "label": "C",
+          "text": "先活着再说",
+          "group": "cool"
+        }
+      ]
+    }
+  ],
+  "typeQuestions": [
+    {
+      "id": 5,
+      "text": "看到一只票已经连续拉了两根，你心里的声音更像：",
+      "options": [
+        {
+          "label": "A",
+          "text": "再不上就真没了。",
+          "type": "RJ"
+        },
+        {
+          "label": "B",
+          "text": "先看群里谁在吹、谁在抬。",
+          "type": "XZ"
+        },
+        {
+          "label": "C",
+          "text": "要上就狠狠干，轻仓像没来过。",
+          "type": "MC"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "一只票从你的成本线下方再次掉头，你更像：",
+      "options": [
+        {
+          "label": "A",
+          "text": "不卖，先把这口气熬过去。",
+          "type": "SM"
+        },
+        {
+          "label": "B",
+          "text": "越跌越有味道，像在送分。",
+          "type": "CD"
+        },
+        {
+          "label": "C",
+          "text": "收盘后我一定能解释清楚今天为什么这样。",
+          "type": "MH"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "别人都在热闹时，你更常见的反应是：",
+      "options": [
+        {
+          "label": "A",
+          "text": "我先等，它要是真强，给机会时再说。",
+          "type": "JZ"
+        },
+        {
+          "label": "B",
+          "text": "我先列风险，最坏能坏到哪。",
+          "type": "FX"
+        },
+        {
+          "label": "C",
+          "text": "不急，我更信自己的判断，不太信场面。",
+          "type": "DL"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "你最容易在哪一刻失去理智：",
+      "options": [
+        {
+          "label": "A",
+          "text": "发现它又涨了，而我还没上车。",
+          "type": "RJ"
+        },
+        {
+          "label": "B",
+          "text": "有人发来“内部纪要”，哪怕来源很野。",
+          "type": "XZ"
+        },
+        {
+          "label": "C",
+          "text": "我一旦看准，就想一把证明自己。",
+          "type": "MC"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "你最常见的嘴硬方式是：",
+      "options": [
+        {
+          "label": "A",
+          "text": "不卖就不算输。",
+          "type": "SM"
+        },
+        {
+          "label": "B",
+          "text": "这不是接刀，这是逆向价值。",
+          "type": "CD"
+        },
+        {
+          "label": "C",
+          "text": "不是我不行，是市场白天没按我想的走。",
+          "type": "MH"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "你理想中的交易状态更像：",
+      "options": [
+        {
+          "label": "A",
+          "text": "忍，等真正轮到我。",
+          "type": "JZ"
+        },
+        {
+          "label": "B",
+          "text": "先保证不死，再谈赚钱。",
+          "type": "FX"
+        },
+        {
+          "label": "C",
+          "text": "大家怎么说不重要，我先对得起自己判断。",
+          "type": "DL"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "真正让你按下买入的，常常不是研究，而是：",
+      "options": [
+        {
+          "label": "A",
+          "text": "别人已经在赚了。",
+          "type": "RJ"
+        },
+        {
+          "label": "B",
+          "text": "那句“老师刚提了”。",
+          "type": "XZ"
+        },
+        {
+          "label": "C",
+          "text": "那种“这把对了就翻身”的仓位冲动。",
+          "type": "MC"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "你最擅长把哪件事说得很有道理：",
+      "options": [
+        {
+          "label": "A",
+          "text": "把套牢讲成长期陪伴。",
+          "type": "SM"
+        },
+        {
+          "label": "B",
+          "text": "把接飞刀讲成别人恐惧我贪婪。",
+          "type": "CD"
+        },
+        {
+          "label": "C",
+          "text": "把白天的乱操作讲成晚上复盘的完整逻辑。",
+          "type": "MH"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "面对一个热门题材，你更可能：",
+      "options": [
+        {
+          "label": "A",
+          "text": "先潜伏，等热闹过去一点再决定。",
+          "type": "JZ"
+        },
+        {
+          "label": "B",
+          "text": "先查最坏情况，别一上来就被故事带走。",
+          "type": "FX"
+        },
+        {
+          "label": "C",
+          "text": "别人一窝蜂的时候，我反而更想自己算一遍。",
+          "type": "DL"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "你对“再拉一根”这件事的理解更像：",
+      "options": [
+        {
+          "label": "A",
+          "text": "这是邀请函。",
+          "type": "RJ"
+        },
+        {
+          "label": "B",
+          "text": "这是消息发酵。",
+          "type": "XZ"
+        },
+        {
+          "label": "C",
+          "text": "这是仓位应该同步升级。",
+          "type": "MC"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "收盘后，你最像哪种人：",
+      "options": [
+        {
+          "label": "A",
+          "text": "嘴上说继续拿着，心里希望明天先给我个体面。",
+          "type": "SM"
+        },
+        {
+          "label": "B",
+          "text": "盯着下跌幅度，越看越想明天补票。",
+          "type": "CD"
+        },
+        {
+          "label": "C",
+          "text": "突然词汇量暴涨，能把今天讲成有预谋的一天。",
+          "type": "MH"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "你心里比较认可的交易人格是：",
+      "options": [
+        {
+          "label": "A",
+          "text": "有耐心的人。",
+          "type": "JZ"
+        },
+        {
+          "label": "B",
+          "text": "不死的人。",
+          "type": "FX"
+        },
+        {
+          "label": "C",
+          "text": "不盲从的人。",
+          "type": "DL"
+        }
+      ]
+    }
+  ],
+  "bonusQuestions": {
+    "hot": [
+      {
+        "id": "B1",
+        "text": "你更怕哪件事：",
+        "options": [
+          {
+            "label": "A",
+            "text": "别人赚钱时我不在车上。",
+            "type": "RJ"
+          },
+          {
+            "label": "B",
+            "text": "别人比我更早知道消息。",
+            "type": "XZ"
+          },
+          {
+            "label": "C",
+            "text": "我看对了却仓位太轻。",
+            "type": "MC"
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "text": "真要“狠狠干”时，你更依赖：",
+        "options": [
+          {
+            "label": "A",
+            "text": "价格已经开始飞。",
+            "type": "RJ"
+          },
+          {
+            "label": "B",
+            "text": "有人把逻辑吹热了。",
+            "type": "XZ"
+          },
+          {
+            "label": "C",
+            "text": "我自己那股梭一把的冲动。",
+            "type": "MC"
+          }
+        ]
+      }
+    ],
+    "obsession": [
+      {
+        "id": "B3",
+        "text": "你最难放下的是：",
+        "options": [
+          {
+            "label": "A",
+            "text": "那条成本线。",
+            "type": "SM"
+          },
+          {
+            "label": "B",
+            "text": "那个越跌越便宜的幻觉。",
+            "type": "CD"
+          },
+          {
+            "label": "C",
+            "text": "“其实我早就看懂了”这口气。",
+            "type": "MH"
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "text": "亏钱之后你更常干嘛：",
+        "options": [
+          {
+            "label": "A",
+            "text": "等，先等它给我一点体面。",
+            "type": "SM"
+          },
+          {
+            "label": "B",
+            "text": "补，再补一点更舒服。",
+            "type": "CD"
+          },
+          {
+            "label": "C",
+            "text": "写，写出一篇能自圆其说的复盘。",
+            "type": "MH"
+          }
+        ]
+      }
+    ],
+    "cool": [
+      {
+        "id": "B5",
+        "text": "你更相信哪种冷静：",
+        "options": [
+          {
+            "label": "A",
+            "text": "不急，等轮到我。",
+            "type": "JZ"
+          },
+          {
+            "label": "B",
+            "text": "先保命，再谈赚钱。",
+            "type": "FX"
+          },
+          {
+            "label": "C",
+            "text": "别人再热闹，我也按自己的。",
+            "type": "DL"
+          }
+        ]
+      },
+      {
+        "id": "B6",
+        "text": "下面哪句更像你：",
+        "options": [
+          {
+            "label": "A",
+            "text": "不是每根阳线都值得我起立。",
+            "type": "JZ"
+          },
+          {
+            "label": "B",
+            "text": "我会先想最坏情况。",
+            "type": "FX"
+          },
+          {
+            "label": "C",
+            "text": "我宁可孤独，也不想盲从。",
+            "type": "DL"
+          }
+        ]
+      }
+    ]
+  },
+  "groupMap": {
+    "hot": [
+      "RJ",
+      "XZ",
+      "MC"
+    ],
+    "obsession": [
+      "SM",
+      "CD",
+      "MH"
+    ],
+    "cool": [
+      "JZ",
+      "FX",
+      "DL"
+    ]
+  },
+  "groupNames": {
+    "hot": "上头组",
+    "obsession": "执念组",
+    "cool": "冷静组"
+  }
+}
