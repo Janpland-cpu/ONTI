@@ -107,3 +107,7 @@ h1{font-size:30px;line-height:1.2;margin:0 0 14px}
 @media (min-width:768px){.result-grid{grid-template-columns:1fr 1fr}.result-main{grid-column:1 / -1}}
 @media (max-width:640px){.page{padding:16px 12px 28px}.hero-card{padding:24px 18px;margin-top:8px}h1{font-size:28px}.section-head h2{font-size:22px}.question-card h2{font-size:21px}.result-subtitle{font-size:26px}}
 @media (max-width:520px){.teaser-grid{grid-template-columns:1fr}.ontter-spotlight{flex-direction:column;align-items:flex-start}.hero-actions,.result-cta-actions,.result-header-actions,.quiz-actions{flex-direction:column}.hero-actions .btn,.hero-actions .btn-link,.result-cta-actions .btn,.result-cta-actions .btn-link,.spotlight-btn{width:100%}}
+.ontter-spotlight {
+    margin-top: 2rem;  /* 或其他你需要的值 */
+    margin-bottom: 2rem;
+}
